@@ -3,9 +3,9 @@ import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
-import '../core/constants/app_url.dart';
-import '../core/errors/exceptions.dart';
-import '../core/errors/failures.dart';
+import '../constants/app_url.dart';
+import '../errors/exceptions.dart';
+import '../errors/failures.dart';
 import 'network_checker.dart';
 
 class ApiHelper extends Equatable {

@@ -7,7 +7,7 @@ import '../../modules/students/data/data_sources/users_data_source.dart';
 import '../../modules/students/data/repositories/users_repository_impl.dart';
 import '../../modules/students/domain/repositories/users_repository.dart';
 import '../../modules/students/domain/use_cases/users_use_cases.dart';
-import '../../network/network_checker.dart';
+import '../network/network_checker.dart';
 
 GetIt getIt = GetIt.instance;
 

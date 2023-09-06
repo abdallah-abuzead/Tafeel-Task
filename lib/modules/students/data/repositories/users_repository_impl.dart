@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:tafeel/modules/students/data/data_sources/users_data_source.dart';
 
 import '../../../../core/errors/failures.dart';
-import '../../../../network/api_helper.dart';
+import '../../../../core/network/api_helper.dart';
 import '../../domain/entities/user.dart';
 import '../../domain/repositories/users_repository.dart';
 

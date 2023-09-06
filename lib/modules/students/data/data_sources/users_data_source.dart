@@ -1,7 +1,7 @@
 import 'package:tafeel/modules/students/data/models/user_model.dart';
 
 import '../../../../core/constants/app_url.dart';
-import '../../../../network/api_helper.dart';
+import '../../../../core/network/api_helper.dart';
 
 abstract class UsersDataSource {
   Future<List<UserModel>> getAllUsers({int? page});
